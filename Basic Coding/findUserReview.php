@@ -1,7 +1,7 @@
 <?php
 require 'UserReview.php';
 
-$review_json = $_POST["review"];
+$review_json = $_GET["review"];
 $review_to_find = json_decode($review_json, true);
 $review_id = $review_to_find['id'];
 
