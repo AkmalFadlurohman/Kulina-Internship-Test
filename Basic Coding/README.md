@@ -5,7 +5,7 @@ Database access configuration and initialization.
 
 ## findUserReview.php
 
-Get user_review data with the specified id
+Get user_review data with the specified id.
 
 Method: GET
 
@@ -19,7 +19,7 @@ response: {"id":"5","order_id":"2","product_id":"2","user_id":"2","rating":"5","
 
 ## getAllUserReview.php
 
-Get all user_review data in the database.
+Get all user_review data in user_review table.
 
 Method : GET
 
@@ -29,7 +29,7 @@ response: [{"id":"5","order_id":"2","product_id":"2","user_id":"2","rating":"5",
 
 ## addUserReview.php
 
-Add new user_review data to the database.
+Add new user_review data to the user_review table.
 
 Method : POST
 
@@ -67,4 +67,4 @@ key: review
 
 value: {"id":"5"}
 
-response: ok
+response: OK
